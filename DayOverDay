@@ -1,0 +1,1 @@
+.es(index=wx-*, timefield='time', metric='avg:temperature_c').label('Today'),.es(offset=-24h, index=wx-*, timefield='time', metric='avg:temperature_c').label('Yesterday'),.es(offset=-48h, index=wx-*, timefield='time', metric='avg:temperature_c').label('2 Days Ago')
